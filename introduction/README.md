@@ -1,4 +1,4 @@
-# # Fundamental System User Guide (main)
+# Introduction
 
 
 
@@ -12,7 +12,7 @@ This guide contains everything you need to assemble, configure, and safely fly a
 
 ### [#](broken-reference) How Do I Get Started? <a href="#how-do-i-get-started" id="how-do-i-get-started"></a>
 
-[Getting Started](.gitbook/assets/getting\_started) should be read by all users! It provides an overview of PX4, including features provided by the flight stack (flight modes and safety features) and the supported hardware (flight controller, vehicles, airframes, telemetry systems, RC control systems).
+[Getting Started](../.gitbook/assets/getting\_started) should be read by all users! It provides an overview of PX4, including features provided by the flight stack (flight modes and safety features) and the supported hardware (flight controller, vehicles, airframes, telemetry systems, RC control systems).
 
 Depending on what you want to achieve, the following tips will help you navigate through this guide:
 
@@ -20,8 +20,8 @@ Depending on what you want to achieve, the following tips will help you navigate
 
 If you have a Ready To Fly (RTF) vehicle that supports PX4:
 
-* [Basic Configuration](.gitbook/assets/config) explains how to update your firmware to the latest version, calibrate the main sensors (compass, gyro/IMU, airspeed etc.), and setup your remote control and safety features.
-* [Flying](.gitbook/assets/flying) teaches flight essentials, including where and how to fly safely, and how to debug arming and flight issues. It also provides detailed information about flight modes.
+* [Basic Configuration](../.gitbook/assets/config) explains how to update your firmware to the latest version, calibrate the main sensors (compass, gyro/IMU, airspeed etc.), and setup your remote control and safety features.
+* [Flying](../.gitbook/assets/flying) teaches flight essentials, including where and how to fly safely, and how to debug arming and flight issues. It also provides detailed information about flight modes.
 
 **I want to build a drone with PX4 from scratch:**
 
@@ -31,26 +31,26 @@ The "supported" vehicles are listed in the [Airframes Reference](broken-referenc
 
 If you want to build a vehicle from scratch:
 
-* Choose a frame - [Airframe Builds](.gitbook/assets/airframes) lists the supported frames and provides detailed instructions for how to construct a subset of vehicles.
-* Choose a flight controller - see [Getting Started > Flight Controllers](broken-reference) and [Autopilot Hardware](.gitbook/assets/flight\_controller).
-* [Assembly](.gitbook/assets/assembly) explains how to wire up the important peripherals to your autopilot.
-* [Basic Configuration](.gitbook/assets/config) shows how to update your firmware and configure it with settings appropriate for your airframe. This section also explains how to calibrate the main sensors (compass, gyro/IMU, airspeed etc.), and setup your remote control and safety features.
+* Choose a frame - [Airframe Builds](../.gitbook/assets/airframes) lists the supported frames and provides detailed instructions for how to construct a subset of vehicles.
+* Choose a flight controller - see [Getting Started > Flight Controllers](broken-reference) and [Autopilot Hardware](../.gitbook/assets/flight\_controller).
+* [Assembly](../.gitbook/assets/assembly) explains how to wire up the important peripherals to your autopilot.
+* [Basic Configuration](../.gitbook/assets/config) shows how to update your firmware and configure it with settings appropriate for your airframe. This section also explains how to calibrate the main sensors (compass, gyro/IMU, airspeed etc.), and setup your remote control and safety features.
 
-Once you are ready to fly your vehicle, visit the [Flying](.gitbook/assets/flying) section.
+Once you are ready to fly your vehicle, visit the [Flying](../.gitbook/assets/flying) section.
 
 **I want to add payload or a camera:**
 
 The payloads section describes how to add a camera or how to configure PX4 to enable you to deliver packages.
 
-* [Payloads](.gitbook/assets/payloads) describes how to integrate payloads
+* [Payloads](../.gitbook/assets/payloads) describes how to integrate payloads
 
 **I am modifying a supported vehicle:**
 
 Modifications of the flight controller and basic sensors are covered above. In order to use new sensors, or if you have made changes that significantly affect flight characteristics:
 
-* [Peripheral Hardware](.gitbook/assets/peripherals) provides additional information about using external sensors.
-* [Basic Configuration](.gitbook/assets/config) explains how to calibrate the main sensors.
-* [Advanced Configuration](.gitbook/assets/advanced\_config) should be used to re/fine-tune the airframe.
+* [Peripheral Hardware](../.gitbook/assets/peripherals) provides additional information about using external sensors.
+* [Basic Configuration](../.gitbook/assets/config) explains how to calibrate the main sensors.
+* [Advanced Configuration](../.gitbook/assets/advanced\_config) should be used to re/fine-tune the airframe.
 
 **I want to run PX4 on new hardware and extend the platform:**
 
@@ -75,9 +75,9 @@ If directed by the development team, code issues may be raised on [Github here (
 
 ### [#](broken-reference) Contributing <a href="#contributing" id="contributing"></a>
 
-Information on how to contribute to code and documentation can be found in the [Contributing](.gitbook/assets/contribute) section:
+Information on how to contribute to code and documentation can be found in the [Contributing](../.gitbook/assets/contribute) section:
 
-* [Code](.gitbook/assets/contribute)
+* [Code](../.gitbook/assets/contribute)
 * [Documentation](broken-reference)
 * [Translation](broken-reference)
 

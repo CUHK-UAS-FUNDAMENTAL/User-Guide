@@ -1,8 +1,8 @@
-# PX4 Architectural Overview
+# Fundamental Architectural Overview
 
 PX4 consists of two main layers: the [flight stack](broken-reference) is an estimation and flight control system, and the [middleware](broken-reference) is a general robotics layer that can support any type of autonomous robot, providing internal/external communications and hardware integration.
 
-All PX4 [airframes](.gitbook/assets/airframes) share a single codebase (this includes other robotic systems like boats, rovers, submarines etc.). The complete system design is [reactive (opens new window)](http://www.reactivemanifesto.org/), which means that:
+All PX4 [airframes](../.gitbook/assets/airframes) share a single codebase (this includes other robotic systems like boats, rovers, submarines etc.). The complete system design is [reactive (opens new window)](http://www.reactivemanifesto.org/), which means that:
 
 * All functionality is divided into exchangeable and reusable components
 * Communication is done by asynchronous message passing
@@ -44,9 +44,9 @@ A **mixer** takes force commands (such as "turn right") and translates them into
 
 #### [#](broken-reference) Middleware <a href="#middleware" id="middleware"></a>
 
-The [middleware](.gitbook/assets/middleware) consists primarily of device drivers for embedded sensors, communication with the external world (companion computer, GCS, etc.) and the uORB publish-subscribe message bus.
+The [middleware](../.gitbook/assets/middleware) consists primarily of device drivers for embedded sensors, communication with the external world (companion computer, GCS, etc.) and the uORB publish-subscribe message bus.
 
-In addition, the middleware includes a [simulation layer](.gitbook/assets/simulation) that allows PX4 flight code to run on a desktop operating system and control a computer modeled vehicle in a simulated "world".
+In addition, the middleware includes a [simulation layer](../.gitbook/assets/simulation) that allows PX4 flight code to run on a desktop operating system and control a computer modeled vehicle in a simulated "world".
 
 ### [#](broken-reference) Update Rates <a href="#update-rates" id="update-rates"></a>
 

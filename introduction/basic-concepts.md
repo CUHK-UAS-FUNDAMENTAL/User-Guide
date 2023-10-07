@@ -2,7 +2,7 @@
 
 This topic provides a basic introduction to drones and using PX4 (it is meant mostly for novice users but is also a good introduction for experienced users).
 
-If you are already familiar with the basic concepts, you can move on to [Basic Assembly](.gitbook/assets/assembly) to learn how to wire your specific autopilot hardware. To load firmware and set up the vehicle with _QGroundControl_, see [Basic Configuration](.gitbook/assets/config).
+If you are already familiar with the basic concepts, you can move on to [Basic Assembly](../.gitbook/assets/assembly) to learn how to wire your specific autopilot hardware. To load firmware and set up the vehicle with _QGroundControl_, see [Basic Configuration](../.gitbook/assets/config).
 
 ### [#](broken-reference) What is a Drone? <a href="#what-is-a-drone" id="what-is-a-drone"></a>
 
@@ -25,7 +25,7 @@ Some of PX4's key features are:
 * Controls [many different vehicle frames/types](broken-reference), including: aircraft (multicopters, fixed wing aircraft and VTOLs), ground vehicles and underwater vehicles.
 * Great choice of hardware for [vehicle controller](broken-reference), sensors and other peripherals.
 * Flexible and powerful [flight modes](broken-reference) and [safety features](broken-reference).
-* Robust and deep integration with [companion computers](broken-reference) and [robotics APIs](.gitbook/assets/robotics) (ROS 2, [MAVSDK (opens new window)](http://mavsdk.mavlink.io/)).
+* Robust and deep integration with [companion computers](broken-reference) and [robotics APIs](../.gitbook/assets/robotics) (ROS 2, [MAVSDK (opens new window)](http://mavsdk.mavlink.io/)).
 
 PX4 is a core part of a broader drone platform that includes the [QGroundControl](broken-reference) ground station, [Pixhawk hardware (opens new window)](https://pixhawk.org/), and [MAVSDK (opens new window)](http://mavsdk.mavlink.io/) for integration with companion computers, cameras and other hardware using the MAVLink protocol. PX4 is supported by the [Dronecode Project (opens new window)](https://www.dronecode.org/).
 
@@ -48,7 +48,7 @@ PX4 uses sensors to determine vehicle state (needed for stabilization and to ena
 For more information see:
 
 * Sensors
-* [Peripherals](.gitbook/assets/peripherals)
+* [Peripherals](../.gitbook/assets/peripherals)
 
 ### [#](broken-reference) Outputs: Motors, Servos, Actuators <a href="#outputs-motors-servos-actuators" id="outputs-motors-servos-actuators"></a>
 
@@ -84,7 +84,7 @@ For information about what ESC/Motors are supported by PX4 see:
 
 PX4 drones are mostly commonly powered from Lithium-Polymer (LiPo) batteries. The battery is typically connected to the system using a _Power Module_ or _Power Management Board_, which provide separate power for the flight controller and to the ESCs (for the motors).
 
-Information about batteries and battery configuration can be found in Battery Configuration and the guides in [Basic Assembly](.gitbook/assets/assembly) (e.g. [Pixhawk 4 Wiring Quick Start > Power](https://about/main/en/assembly/quick\_start\_pixhawk4.html#power)).
+Information about batteries and battery configuration can be found in Battery Configuration and the guides in [Basic Assembly](../.gitbook/assets/assembly) (e.g. [Pixhawk 4 Wiring Quick Start > Power](https://about/main/en/assembly/quick\_start\_pixhawk4.html#power)).
 
 ### [#](broken-reference) Manual Control <a href="#manual-control" id="manual-control"></a>
 
@@ -116,7 +116,7 @@ A Joystick/Gamepad connected through _QGroundControl_ can also be used to manual
 
 With this approach, QGroundControl translates stick/button information from a connected Joystick into MAVLink-protocol messages, which are then sent to PX4 using the shared telemetry radio link. The telemetry radio must have sufficient bandwidth for both manual control and other telemetry messages, and of course this approach means that you must have a ground station running QGroundControl.
 
-Joysticks are also used to manually fly PX4 in a [simulator](.gitbook/assets/simulation).
+Joysticks are also used to manually fly PX4 in a [simulator](../.gitbook/assets/simulation).
 
 ### [#](broken-reference) Safety Switch <a href="#safety-switch" id="safety-switch"></a>
 
@@ -126,11 +126,11 @@ Commonly the safety switch is integrated into a GPS unit, but it may also be a s
 
 ### [#](broken-reference) Data/Telemetry Radios <a href="#data-telemetry-radios" id="data-telemetry-radios"></a>
 
-[Data/Telemetry Radios](.gitbook/assets/telemetry) can provide a wireless MAVLink connection between a ground control station like _QGroundControl_ and a vehicle running PX4. This makes it possible to tune parameters while a vehicle is in flight, inspect telemetry in real-time, change a mission on the fly, etc.
+[Data/Telemetry Radios](../.gitbook/assets/telemetry) can provide a wireless MAVLink connection between a ground control station like _QGroundControl_ and a vehicle running PX4. This makes it possible to tune parameters while a vehicle is in flight, inspect telemetry in real-time, change a mission on the fly, etc.
 
 ### [#](broken-reference) Offboard/Companion Computer <a href="#offboard-companion-computer" id="offboard-companion-computer"></a>
 
-A [Companion Computer](.gitbook/assets/companion\_computer) (also referred to as "mission computer" or "offboard computer"), is a separate on-vehicle computer that communicates with PX4 to provide higher level command and control.
+A [Companion Computer](../.gitbook/assets/companion\_computer) (also referred to as "mission computer" or "offboard computer"), is a separate on-vehicle computer that communicates with PX4 to provide higher level command and control.
 
 The companion computer usually runs Linux, as this is a much better platform for "general" software development, and allows drones to leverage pre-existing software for computer vision, networking, and so on.
 
@@ -138,9 +138,9 @@ The flight controller and companion computer may be pre-integrated into a single
 
 Relevant topics include:
 
-* [Companion Computers](.gitbook/assets/companion\_computer)
+* [Companion Computers](../.gitbook/assets/companion\_computer)
 * Off-board Mode - Flight mode for offboard control of PX4 from a GCS or companion computer.
-* [Robotics APIs](.gitbook/assets/robotics)
+* [Robotics APIs](../.gitbook/assets/robotics)
 
 ### [#](broken-reference) SD Cards (Removable Memory) <a href="#sd-cards-removable-memory" id="sd-cards-removable-memory"></a>
 
