@@ -8,7 +8,7 @@ Welcome to the Fundamental System User Guide! This guide serves as a comprehensi
 
 #### What is the Fundamental System?
 
-The Fundamental System is a cutting-edge integrated software solution designed to facilitate the planning, control, and simulation of Unmanned Aerial Vehicles (UAVs). It is built upon Pixhawk4 Firmware and aims to deliver a secure, efficient, and user-friendly experience for both developers and end-users.
+The Fundamental System is a robust integrated solution designed to streamline autonomous drone task implementation. It is built upon Pixhawk4 Firmware and aims to deliver a secure, efficient, and user-friendly experience for both developers and end-users.
 
 #### Why Simulation is included?
 
