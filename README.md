@@ -1,10 +1,8 @@
 ---
-description: The user guide for the fundamental system
+description: The user guide for a integrated software solution for Unmanned Systems
 ---
 
 # Fundamental System User Guide
-
-### Introduction
 
 Welcome to the Fundamental System User Guide! This guide serves as a comprehensive resource for understanding, setting up, and operating the Fundamental System, a state-of-the-art software developed by the USR Group at The Chinese University of Hong Kong (CUHK).
 
