@@ -12,6 +12,7 @@
 * [Modules](modules/README.md)
   * [Task Planning](modules/task-planning.md)
   * [Motion Planning](modules/motion-planning.md)
+  * [An open-source SLAM integration package](modules/an-open-source-slam-integration-package.md)
   * [SLAM(Simultaneous Localization and Mapping)](modules/slam-simultaneous-localization-and-mapping.md)
 * [Flight controller](flight-controller/README.md)
   * [PX4 Autopilot](flight-controller/px4-autopilot.md)
