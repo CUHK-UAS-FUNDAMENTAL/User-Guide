@@ -6,40 +6,42 @@ description: A introduction to basic concepts in the Fundamental System
 
 This topic offers a fundamental insight into drones and the utilization of the Fundamental System, catering predominantly to novice users while also serving as a beneficial primer for seasoned individuals.
 
-Drones, synonymous with Unmanned Aerial Vehicles (UAVs), have garnered a pivotal role across diverse sectors owing to their adaptability and proficiency in executing tasks either remotely or autonomously.&#x20;
-
 The Fundamental System encompasses both a simulation and implementation platform designed to streamline the development, assessment, and operation of Unmanned Systems, with a primary focus on drones, thereby guaranteeing the autonomous orchestration of missions.
 
 Now, we're going to explain some key concepts that are essential in understanding the basics of Fundamental System:
 
+### Drone:
+
+A drone is a flying robotic vehicle that can be controlled remotely or operate autonomously based on pre-programmed instructions. They are equipped with sensors, cameras, and GPS devices that aid in navigation and task execution. In the Fundamental System, drones embody the primary agents that carry out various tasks, with the system facilitating seamless task processing and execution based on human input.
+
 ### Pixhawk4 Firmware:
 
-The Pixhawk4 firmware is pivotal within the Fundamental System, serving as the drone’s operational nucleus. It facilitates seamless interaction between the drone’s hardware and the diverse software elements within the Fundamental System, enabling precise flight control and other operational functionalities crucial for autonomous task execution.
+Pixhawk4 Firmware is the core software that governs the flight controls and other operational functionalities of a drone. It's pivotal for interfacing between the hardware and other software elements of the drone, ensuring coherent communication and operational efficiency. Within the Fundamental System, Pixhawk4 firmware stands as a cornerstone that ensures precise flight controls and operational functionalities, forming a harmonized infrastructure crucial for the drone's performance during autonomous missions.
 
 ### Software-In-The-Loop (SITL):
 
-SITL simulation is a key feature of the Fundamental System, offering a virtual environment to validate the drone's software. This ensures any software bugs are identified and rectified early on, setting a solid foundation for subsequent stages of autonomous task planning and execution.
+Software-In-The-Loop (SITL) is a simulation environment that helps in testing and validating the drone's software within a virtual scenario, ensuring that any bugs are identified and rectified before real-world testing. Within the Fundamental System, SITL holds a significant position, offering an initial stage for testing and validation of software, establishing a robust foundation before moving to more complex stages of task and motion planning.
 
 ### Hardware-In-The-Loop (HITL) Simulation:
 
-Within the Fundamental System, HITL simulation augments testing by encompassing both the drone's software and hardware. This realistic testing milieu is essential for ensuring harmonized interactions between software and hardware, crucial for reliable autonomous flight.
+Hardware-In-The-Loop (HITL) Simulation is a testing paradigm that involves testing both the drone's software and the actual hardware within a simulated environment, providing a more realistic testing scenario before actual flight. In the Fundamental System, HITL simulation extends the testing framework, ensuring a harmonized interaction between software and hardware components, pivotal for reliable autonomous mission execution.
 
 ### Task Planning:
 
-Task planning is the initial phase within the Fundamental System where human inputs are processed into specific tasks for the drone. The system meticulously computes the necessary flight paths and actions required, laying the groundwork for effective motion planning and autonomous task execution.
+Task Planning is a procedure involving the organization and definition of tasks a drone needs to perform during its flight, including setting waypoints, defining flight paths, and specifying actions. In the Fundamental System, task planning is instrumental where human inputs are processed into specific task directives for the drones, laying the groundwork for effective autonomous mission execution.
 
 ### Motion Planning:
 
-Motion planning, facilitated by the Fundamental System, intricately sketches the optimal path for the drone while incorporating collision avoidance strategies. This is paramount for ensuring a safe and efficient autonomous flight, especially in environments with potential hindrances.
+Motion Planning is a process where algorithms work out the optimal path for the drone to follow, taking into account obstacles, no-fly zones, and other potential hindrances to ensure a safe and efficient autonomous flight. Within the Fundamental System, motion planning algorithms are employed to compute optimal paths, facilitating safe and efficient autonomous flights with collision avoidance as a pivotal feature.
 
 ### SLAM (Simultaneous Localization and Mapping):
 
-SLAM, as integrated within the Fundamental System, empowers drones with real-time mapping and localization capabilities. This is indispensable for autonomous navigation, especially in dynamic or unknown environments, enhancing the drone’s perception and situational awareness.
+SLAM (Simultaneous Localization and Mapping) is a technology that enables the drone to map unknown environments while simultaneously keeping track of its position, crucial for autonomous navigation in dynamic or unfamiliar spaces. In the Fundamental System, SLAM is integrated to enhance the autonomous navigation capabilities of drones, enabling real-time mapping and localization in dynamic environments.
 
 ### ROS (Robot Operating System):
 
-ROS, within the Fundamental System, acts as the linchpin for communication among various software components. It streamlines the development, testing, and implementation of autonomous drone missions, making the Fundamental System a robust platform for operationalizing drone technology.
+ROS (Robot Operating System) is a robust framework that facilitates communication between various software components, aiding in the development, testing, and implementation of autonomous drone missions. In the Fundamental System, ROS serves as a conduit for seamless communication between software components, streamlining the development and execution of autonomous drone tasks.
 
-The Fundamental System embodies an end-to-end solution for autonomous drone task implementation. From processing human input to task planning, motion planning with collision avoidance, and perception mapping through SLAM, it encapsulates a comprehensive suite of tools and frameworks necessary for executing autonomous drone missions accurately and efficiently. Through a harmonized interplay of these key concepts, the Fundamental System unveils a streamlined pathway for translating human inputs into successful autonomous drone task executions, marking a significant stride in the domain of autonomous UAV technology.
+The Fundamental System encapsulates these concepts and technologies, offering an integrated solution for autonomous drone task implementation, from task processing from human input, through task and motion planning, to perception mapping and SLAM, ensuring a reliable and efficient autonomous mission conduct.
 
 ### &#x20;<a href="#safety-settings-failsafe" id="safety-settings-failsafe"></a>
