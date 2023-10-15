@@ -1,3 +1,3 @@
 # Introduction
 
-Fundamental System is&#x20;
+Fundamental System is an integrated software framework aiming for the autonomous mission conduct for the UAS.
