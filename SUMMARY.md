@@ -10,7 +10,7 @@
 * [Source Code Management](source-code-management.md)
   * [Code for Modules](source-code-management/code-for-modules.md)
 * [Modules](modules/README.md)
-  * [Task Management](modules/task-management.md)
+  * [Task planning](modules/task-planning.md)
   * [Motion Planning](modules/motion-planning.md)
   * [An open-source SLAM integration package](modules/an-open-source-slam-integration-package.md)
   * [SLAM(Simultaneous Localization and Mapping)](modules/slam-simultaneous-localization-and-mapping.md)
