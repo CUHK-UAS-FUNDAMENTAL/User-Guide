@@ -47,9 +47,10 @@ Up to now, we have collected and tested four kinds of lidar SLAM, including pure
 
 ## 2. Overall Architecture
 
-![Autonomous UAV system overview](https://user-images.githubusercontent.com/58619142/182335315-06c7d47d-3a23-47c4-83db-734fab28334e.png)\
-Figure 1: Autonomous UAV system overview\
+\
 
+
+<figure><img src="https://user-images.githubusercontent.com/58619142/182335315-06c7d47d-3a23-47c4-83db-734fab28334e.png" alt=""><figcaption><p>Figure 1: Autonomous UAV system overview<br></p></figcaption></figure>
 
 The SLAM module plays a role in perceiving and analyzing environment information gathered by navigation sensors. In a GPS-deny environment, Unmanned vehicles depend on the SLAM algorithm to get accurate localization information. In general, SLAM algorithms can be divided into lidar SLAM and visual SLAM. The visual SLAM algorithm is low-cost and lightweight, which benefits from camera sensors. However, visual SLAM suffers mostly from illumination variation and motion distortion. The lidar SLAM methods, by contrast, have a stable performance in a challenging environment. This is one important reason why engineers prefer lidar SLAM whether in autonomous driving or service robots.
 
