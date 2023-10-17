@@ -135,22 +135,7 @@ python /home/joseph/yzchen_ws/task_planning/ltl_interface/src/remote_server/src/
 python gazebo_HMI_plugin.py
 ```
 
-### Get ready for the task (e.g., taking off, do system selection in HMI)
+### Get ready for the task (e.g., taking off, doing system selection in HMI)
 
 ### Input the LTL specification by voice or text
 
-
-
-## Simulation & Task Management
-
-* ### **How does the task management system utilize the simulation modes (Numerical, SITL, HITL) to ensure safe and efficient task execution?**
-
-##
-
-
-
-##
-
-## Updates & Feedback
-
-* ### **How can users ensure they're utilizing the most updated task management features, and where can they submit feedback for continuous system improvement?**
